@@ -6,10 +6,10 @@ terraform {
    }
  }
 
- backend "s3" {
-   bucket = "mytf-tuts-state"
-   key    = "state"
-   region = "us-east-2"
- }
+# backend "s3" {
+#   bucket = "mytf-tuts-state"
+#   key    = "state"
+#   region = "us-east-2"
+# }
 }
 
